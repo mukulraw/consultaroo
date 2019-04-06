@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:background="@drawable/background_one"
+    tools:context="com.consultaroo.app.ChooseOption">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        <TextView
+            android:textSize="25dp"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:text="Hey there,"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="3dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="What are you looking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_margin="3dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="to do?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <TextView
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/hire"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_weight="2"
+                android:background="@drawable/rounded_edittext"
+                android:backgroundTint="@color/green_dark"
+                android:text="I would like to Hire?"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/work"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_weight="2"
+                android:backgroundTint="@color/yellow"
+                android:background="@drawable/rounded_edittext"
+                android:text="I would like to Work?"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/chat"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_weight="2"
+                android:backgroundTint="@color/blue"
+                android:background="@drawable/rounded_edittext"
+                android:text="Chat with us"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+<!--
+    <ImageView
+        android:id="@+id/imageview"
+        android:background="@drawable/background_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+-->
+
+</LinearLayout>
